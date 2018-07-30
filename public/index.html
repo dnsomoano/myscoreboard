@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Myscoreboard</title>
-    <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <script src="/main.js" charset="utf-8"></script>
-  </body>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Myscoreboard</title>
+  <link rel="stylesheet" href="/screen.css">
+</head>
+
+<body>
+  <header class="mainHeader">My Score Board</header>
+  <section class="teamContainer">
+    <ul>
+      <li>
+        <h1>Team 1</h1>
+      </li>
+      <li>
+        <h1>Team 2</h1>
+      </li>
+    </ul>
+  </section>
+  <!-- Team 1 scorecard -->
+  <section class="teamContainer">
+    <ul>
+      <li>
+        <h2>Update Team 1 Name</h2>
+      </li>
+      <li>
+        <input type="text">
+      </li>
+      <li>
+        <input class="teamNameUpdate" value="Update" type="button">
+      </li>
+      <li>
+        <h1>Update Team 1 Score</h1>
+      </li>
+      <li>
+        <input class="addToTeam" type="button">
+      </li>
+      <li>
+        <input class="subtractFromTeam" type="button">
+      </li>
+      <!-- Team 2 scorecard -->
+      <li>
+        <h2>Update Team 2 Name</h2>
+      </li>
+      <li>
+        <input class="teamNameUpdate" type="text">
+      </li>
+      <li>
+        <input class="teamNameUpdate" value="Update" type="button">
+      </li>
+      <li>
+        <h1>Update Team 2 Score</h1>
+      </li>
+      <li>
+        <input class="addToTeam" value="Add 1" type="button">
+      </li>
+      <li>
+        <input class="subtractFromTeam" value="Subtract 1" type="button">
+      </li>
+    </ul>
+  </section>
+
+  <script src="/main.js" charset="utf-8"></script>
+</body>
+
 </html>

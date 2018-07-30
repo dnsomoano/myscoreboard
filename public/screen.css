@@ -7,3 +7,35 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+.mainHeader {
+  text-align: center;
+}
+
+/* .teamHeader ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+} */
+
+.teamContainer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.teamNameUpdate {
+  align-content: center;
+}
+
+.addToTeam {
+  align-content: center;
+}
+
+.subtractFromTeam {
+  align-content: center;
+}
