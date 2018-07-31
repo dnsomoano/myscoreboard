@@ -53,17 +53,40 @@ h1 {
   margin-top: 12em;
 }
 
-.teamNameUpdate {
+.updateButtonForTeamOne {
   align-content: center;
   margin: 0.5em;
 }
 
-.addToTeam {
+.addToTeamOne {
   align-content: center;
   margin-left: 1em;
 }
 
-.subtractFromTeam {
+.subtractFromTeamOne {
   align-content: center;
   padding-right: 5em;
+}
+
+.teamOneName {
+  align-content: center;
+}
+
+.updateButtonForTeamTwo {
+  align-content: center;
+  margin: 0.5em;
+}
+
+.addToTeamTwo {
+  align-content: center;
+  margin-left: 1em;
+}
+
+.subtractFromTeamTwo {
+  align-content: center;
+  padding-right: 5em;
+}
+
+.teamTwoName {
+  align-content: center;
 }
