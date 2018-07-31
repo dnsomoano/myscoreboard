@@ -14,54 +14,56 @@
     <ul>
       <li>
         <h1>Team 1</h1>
+        <h3 class="teamOneScore">0</h3>
       </li>
       <li>
         <h1>Team 2</h1>
+        <h3 class="teamTwoScore">0</h3>
       </li>
     </ul>
   </section>
+
   <!-- Team 1 scorecard -->
-  <section class="teamContainer">
+  <form class="mainContainer">
     <ul>
       <li>
-        <h2>Update Team 1 Name</h2>
-      </li>
-      <li>
-        <input type="text">
-      </li>
-      <li>
-        <input class="teamNameUpdate" value="Update" type="button">
+        <h1>Update Team 1 Name</h1>
       </li>
       <li>
         <h1>Update Team 1 Score</h1>
       </li>
+    </ul>
+    <ul>
       <li>
-        <input class="addToTeam" type="button">
-      </li>
-      <li>
-        <input class="subtractFromTeam" type="button">
-      </li>
-      <!-- Team 2 scorecard -->
-      <li>
-        <h2>Update Team 2 Name</h2>
-      </li>
-      <li>
-        <input class="teamNameUpdate" type="text">
-      </li>
-      <li>
+        <input type="text">
         <input class="teamNameUpdate" value="Update" type="button">
+      </li>
+      <li>
+        <input class="addToTeam" value="Add 1" type="button">
+        <input class="subtractFromTeam" value="Subtract 1" type="button">
+      </li>
+    </ul>
+
+    <!-- Team 2 scorecard -->
+    <ul>
+      <li>
+        <h1>Update Team 2 Name</h1>
       </li>
       <li>
         <h1>Update Team 2 Score</h1>
       </li>
+    </ul>
+    <ul>
       <li>
-        <input class="addToTeam" value="Add 1" type="button">
+        <input type="text">
+        <input class="teamNameUpdate" value="Update" type="button">
       </li>
       <li>
+        <input class="addToTeam" value="Add 1" type="button">
         <input class="subtractFromTeam" value="Subtract 1" type="button">
       </li>
     </ul>
-  </section>
+  </form>
 
   <script src="/main.js" charset="utf-8"></script>
 </body>
