@@ -1,9 +1,10 @@
-# Score Board
+# Score Board #
 For this assignment you will creating a simple interactive score board for your favorite sport.
 
 A User should be able to update a score and the teams playing.
 
 Objectives
+- - - - - -
 Explorer Mode
 Should resemble this:
 
