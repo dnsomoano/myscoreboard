@@ -31,6 +31,16 @@ h1 {
   margin: 0.5em;
 }
 
+#teamOneNameChange {
+  font-size: 1em;
+  margin: 0.5em;
+}
+
+#teamTwoNameChange {
+  font-size: 1em;
+  margin: 0.5em;
+}
+
 .teamOneScore {
   font-size: 6em;
   text-align: center;

@@ -46,16 +46,15 @@ const lossForTeamTwo = () => {
   console.log("Team 2 lost a point. Boo!");
 };
 
-const refreshValuesForOne = () => {
-  location.reload('.teamOneName')
-}
+// const NameChangeOne = () => {
+//   reload.location()
+//   document.getElementById('#teamOneNameChange').value
+// }
 
-const refreshValuesForTwo = () => {
-  location.reload('.teamTwoName')
-}
+// const refreshValuesForTwo = () => {
+//   location.reload('.teamTwoName')
+// }
 
-// Refresh value
-document.querySelector('.updateButtonForTeamTwo').addEventListener('click', refreshValuesForTwo)
 
 //
 // Team 1 query selectors
@@ -64,7 +63,9 @@ document.querySelector('.addToTeamOne').addEventListener('click', scoreForTeamOn
 // Loss 1
 document.querySelector(".subtractFromTeamOne").addEventListener("click", lossForTeamOne)
 // input value
-document.querySelector('.updateButtonForTeamOne').addEventListener('click', refreshValuesForOne)
+// document.querySelector('.updateButtonForTeamOne').addEventListener('click', refreshValuesForOne)
+// // Rename team 1 value
+// document.getElementById('#teamOneNameChange').value
 
 //
 // Team 2 query selectors
@@ -72,7 +73,8 @@ document.querySelector('.updateButtonForTeamOne').addEventListener('click', refr
 document.querySelector('.addToTeamTwo').addEventListener("click", scoreForTeamTwo)
 // Loss 1
 document.querySelector('.subtractFromTeamTwo').addEventListener('click', lossForTeamTwo)
-
+// Rename team 2 value
+// document.getElementById('#teamTwoNameChange').innerHTML = document.querySelector('teamTwoName')
 
 // default
 document.addEventListener("DOMContentLoaded", main);
